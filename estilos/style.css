@@ -23,13 +23,22 @@ header{
     font-weight: bolder;
     text-align: center;
     padding: 10px 10px ;
+    position: relative;
 }
 header p{
     padding:  30px 0px 0px 0px;
 }
 
 header img#logo{
-    display: flex;
+    position: absolute;
+    display: inline-block;
+    max-width: 100px;
+
+
+    right: 92%;
+    top: -5%;
+
+    
 }
 
 
